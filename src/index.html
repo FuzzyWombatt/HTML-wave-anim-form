@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>HTML wave anim</title>
+    <meta name="description" content="Basic HTML/Tailwind starter" />
+    <meta name="author" content="Daily Dev Tips" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="flex flex-col items-center justify-center h-screen overflow-hidden m-0 text-white bg-steel-blue font-Muli ">
+    <div id="container" class="bg-.3 p-10 rounded-md">
+      <h1 class="text-4xl mb-8 text-center">Please Login</h1>
+      <form>
+        <div class="mt-5 mr-0 ml-0 mb-10 w-300 relative" id="form-element">
+          <input type="text" class="border-b-2 bg-transparent w-full text-lg pt-4 pb-4 focus:outline-none focus:border-blue-300" required>
+          <label class="absolute left-0 top-4 focus:text-blue-300">Email</label>
+        </div>
+        <div class="mt-5 mr-0 ml-0 mb-10 w-300 relative" id="form-element">
+          <input type="password" class="border-b-2 bg-transparent w-full text-lg pt-4 pb-4 focus:outline-none focus:border-blue-300"  required>
+          <label class="absolute left-0 top-4">Password</label>
+        </div>
+        <button class="btn w-full bg-blue-300 p-4 text-lg rounded-md cursor-pointer inline-block focus:outline-none">Login</button>
+        <p class="pt-8">Don't have an account? <a class="text-blue-300" href="">Register</a></p>
+      </form>
+    </div>
+    <script src='index.js'></script>
+  </body>
+</html>
